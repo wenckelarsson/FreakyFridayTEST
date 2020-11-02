@@ -1,0 +1,258 @@
+/*
+Theme name: HTML5
+Date: Sep. 2020
+Description: Project Work.
+Author: Group 7
+Author URL: http://www.oslomet.no
+ */
+body{
+    /*background-image: url("images/background.jpg");*/
+    clore: red;
+    font-size: 90%;
+    font-family: Arial, verdana;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #f6f4e6;
+
+}
+
+a{text-decoration: none;}
+a:link, a:visited{color:White;}
+a:hover, a:active{color:#fddb3a;}
+.body{
+    margin: 0px auto;
+    width: 70%;
+    clear: both;
+}
+
+
+.mainheader img {
+    width: 100%;
+    height: 100px;
+}
+.mainheader nav{
+    background-color: #52575d;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.mainheader nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+
+}
+.mainheader nav ul li{
+    display: inline;
+
+}
+.mainheader a:link, .mainheader a:visited{
+    color: white;
+    padding: 10px 45px;
+    display: inline-block;
+    height: 20px;
+}
+.mainheader a:hover, .mainheader a:active{
+    color: black;
+    background-color: #fddb3a;
+    text-shadow: none;
+    border-radius: 5px;
+    height: 40px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainheader {
+  position: fixed;
+  top: 0;
+  width: inherit;
+}
+
+/*------------------------MAIN CONTENT------------------*/
+.mainContent{
+    width: 100%;
+    float: left;
+}
+.top-content{
+
+    background-color: #f6f4e6;
+    padding: 3%;
+    margin:  3% 0 3% 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.post-info{
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+
+}
+.post-content{
+    display:inline-block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img-with-text {
+    text-align: center;
+    width:853px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+p.large{
+  font-size: 2em;
+  color: white;
+  background-color: #52575d;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+p.medium {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+a.one:link {color: white; background-color: #52575d;  font-size: 2em;  border-radius:5px;  -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+a.one:visited{color: white; background-color: #52575d;  font-size: 2em;  border-radius:5px;  -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+a.one:hover{color: black; background-color: #fddb3a;  font-size: 2em;  border-radius:5px;  -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+
+.center {
+  text-align: center;
+  font-size: 100%;
+}
+
+.block {
+  position:inherit;
+}
+/*-------------------------footer-----------------------*/
+.footer{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    background-color: #52575d;
+    height: 60px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.footer p {
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+/*_____________________HTML5__________________*/
+.post-image {
+    width: 100%;
+}
+figure {
+    margen: 25px 0;
+    font-size: 80%;
+    color: #999;
+}
+/*_____________________CSS for Mobil______________*/
+@media screen and (max-width: 480px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    /*_________________MAin Header mobile____________*/
+    .mainheader nav{
+        height: 200px;
+    }
+    .mainheader nav ul li{
+        display: inline;
+
+    }
+    .mainheader ul{
+        width: 100%;
+        padding: 0;
+    }
+    .mainheader a:link, .mainheader a:visited{
+        display: block;
+    }
+    .mainheader{
+      position: static;
+      top: 0;
+      width: 100%;
+    }
+    .mainContent{
+        width: 100%;
+    }
+    .thesidebar{
+        width: 96%;
+       margin-left: 0;
+        margin-right: -20px;
+
+    }
+
+}
+/*________________CSS for IPad__________*/
+@media screen and (max-width: 2000px){
+    .body {
+        width: 70%;
+        font-size: 90%;
+    }
+    .mainheader a:link, .mainheader a:visited{
+        padding: 10px 45px;
+    }
+}
+@media screen and (max-width: 1202px){
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+    .mainheader a:link, .mainheader a:visited{
+        padding: 10px 19px;
+    }
+}
+@media screen and (max-width:745px) {
+    .body {
+        width: 90%;
+        font-size: 96%;
+    }
+
+    .mainheader a:link, .mainheader a:visited {
+        padding: 10px 15px;
+        font-size: 85%;
+    }
+
+    @media screen and (max-width: 579px) {
+        .body {
+            width: 90%;
+            font-size: 90%;
+        }
+        .mainheader a:link, .mainheader a:visited {
+            padding: 10px 5px;
+            font-size: 80%;
+        }
+    }
+}
